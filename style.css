@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+@font-face {
+    font-family: Capitalis;
+    src: url(fontes/CapitalisTypOasis.ttf) format(truetype);
+}
+
+
+@font-face {
+    font-family: 'Greek';
+    src: url(fontes/Greek-Freak.ttf) format(truetype);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    font-family: Capitalis;
+    font-weight: lighter;
+    font-size: 4.5em;
+    padding-top: 30px;
+}
+
+header p {
+    font-family: 'Mooli', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 1em;
+}
+
+body {
+    background-color: rgb(231, 231, 231)
+}
+
+h2 {
+    text-align: center;
+    font-family: greek;
+    font-size: 3em;
+    padding-left: 50px;
+    padding-top: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.61);
+}
+
+h2#athena-title {
+    color: #003f7e;
+}
+
+h2#ares-title {
+    color: #5E0000;
+    padding-top: 80px;
+}
+
+section.normal {
+    font-family: 'Mooli', sans-serif;
+    font-size: 2em;
+}
+
+section.normal p {
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+section.imagem {
+    font-family: 'Mooli', sans-serif;
+    font-size: 2em;
+}
+
+section.imagem p {
+    background-color: rgba(0, 0, 0, 0.281);
+    padding: 5px;
+    display: inline-block;
+    width: 400px;
+    color: white;
+    translate: 50px 140px;
+}
+
+section.imagem#athena {
+    position: relative;
+    background-image: url(imagens/blue-bg.jpg);
+    height: 600px;
+    margin: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+section.imagem#ares {
+    position: relative;
+    background-image: url(imagens/red-bg.jpg);
+    height: 650px;
+    margin: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+img#foto-de-athena {
+    display: block;
+    height: 400px;
+    position: absolute;
+    left: 75%;
+    bottom: 15%;
+    border-radius: 500px;
+}
+
+img#foto-de-ares {
+    display: block;
+    height: 420px;
+    position: absolute;
+    left: 75%;
+    bottom: 15%;
+    border-radius: 500px;
+}
